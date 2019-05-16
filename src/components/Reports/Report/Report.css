@@ -1,0 +1,20 @@
+.report .card__row {
+  height: 36px;
+}
+
+.report .card__text--blue {
+  text-decoration: underline;
+}
+.report .card__text--small {
+  font-size: 14px;
+}
+
+.report.r2 {
+  border-radius: 4px;
+  background-color: #f5f8fc;
+  opacity: 0.99;
+}
+
+.report .divider {
+  opacity: 1;
+}
