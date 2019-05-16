@@ -1,6 +1,8 @@
 import React from 'react';
 import Card from '../ui/Card/Card';
+import Divider from '../ui/Divider/Divider';
 import Report from './Report/Report';
+import ReportsNav from './ReportsNav/ReportsNav';
 
 const Reports = () => {
   let reportsList = [];
@@ -9,7 +11,8 @@ const Reports = () => {
   }
   return (
     <Card>
-      <div>trans categories</div>
+      <ReportsNav />
+      <Divider />
       {reportsList}
     </Card>
   );

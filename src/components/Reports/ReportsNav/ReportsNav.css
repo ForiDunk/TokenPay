@@ -1,0 +1,20 @@
+.rep-nav {
+  height: 100%;
+  display: flex;
+}
+.rep-nav__item {
+  display: inline-block;
+  color: #7f8cb5;
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 22px;
+  height: 100%;
+  position: relative;
+  align-items: center;
+  display: flex;
+}
+.rep-nav__item.active {
+  color: #445c84;
+  border-bottom: 2px solid #1d6ff7;
+  z-index: 1;
+}
