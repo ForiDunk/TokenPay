@@ -1,0 +1,20 @@
+.nav-item {
+  display: flex;
+  align-items: center;
+  margin: 0 15.5px;
+  color: #7f8cb5;
+}
+
+.nav-item svg {
+  margin-right: 10px;
+  fill: #7f8cb5;
+}
+
+.nav-item:hover,
+.nav-item.active {
+  color: #1d6ff7;
+}
+.nav-item:hover svg,
+.nav-item.active svg {
+  fill: #1d6ff7;
+}
