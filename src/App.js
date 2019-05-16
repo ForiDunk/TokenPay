@@ -1,12 +1,12 @@
 import React from 'react';
 import NavBar from './components/NavBar/NavBar';
 import SearchBar from './components/SearchBar/SearchBar';
+import InfoCards from './components/InfoCards/InfoCards';
 const App = () => (
   <div>
     <NavBar />
     <SearchBar />
-    <hr />
-    Cards
+    <InfoCards />
     <hr />
     Reports
     <hr />
