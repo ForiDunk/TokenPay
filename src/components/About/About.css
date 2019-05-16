@@ -1,0 +1,36 @@
+.about__title {
+  display: inline-block;
+  color: #445c84;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 28px 56px;
+  text-align: center;
+}
+
+.about__subscribe {
+  text-align: center;
+}
+
+.about__input {
+  height: 36px;
+  box-sizing: border-box;
+  border: 1px solid #eff3f8;
+  border-radius: 4px 0 0 4px;
+  padding: 10px 15px;
+}
+
+.about__input::placeholder {
+  color: #7f8cb5;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.about__button {
+  height: 36px;
+  border-radius: 0 4px 4px 0;
+  background-color: #1c6ef6;
+  color: #fff;
+  border: unset;
+  box-sizing: border-box;
+  padding: 10px 20px;
+}
