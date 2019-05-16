@@ -1,10 +1,10 @@
 import React from 'react';
 import NavBar from './components/NavBar/NavBar';
+import SearchBar from './components/SearchBar/SearchBar';
 const App = () => (
   <div>
     <NavBar />
-    <hr />
-    SearchBar
+    <SearchBar />
     <hr />
     Cards
     <hr />
