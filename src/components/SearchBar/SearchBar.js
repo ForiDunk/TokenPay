@@ -7,7 +7,9 @@ const SearchBar = () => (
   <div className="search-bar">
     <SearchIcon className="search-icon" />
     <input type="text" placeholder="Search height, hash, tx hash or address…" />
-    {isBrowser ? <button className="search-bar__button">Search</button> : null}
+    {isBrowser ? (
+      <button className="pointer search-bar__button">Search</button>
+    ) : null}
   </div>
 );
 
