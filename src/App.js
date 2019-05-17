@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import SearchBar from './components/SearchBar/SearchBar';
 import InfoCards from './components/InfoCards/InfoCards';
@@ -8,9 +9,11 @@ const App = () => (
   <div>
     <NavBar />
     <SearchBar />
-    <InfoCards />
-    <Reports />
-    <About />
+    <section className="main-body">
+      <InfoCards />
+      <Reports />
+      <About />
+    </section>
     <hr />
     Footer
   </div>
