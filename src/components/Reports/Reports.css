@@ -36,3 +36,11 @@
   width: 200px;
   text-align: end;
 }
+
+.reports .card .card:last-child {
+  padding-bottom: 10px;
+}
+
+.desktop .reports {
+  margin: 0 10px;
+}

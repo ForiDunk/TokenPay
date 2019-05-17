@@ -5,6 +5,7 @@
 .about__social {
   padding: 0 10px;
   box-sizing: border-box;
+  text-align: center;
 }
 
 .about__title {
@@ -48,7 +49,7 @@
 .desktop .about {
   width: 100%;
   padding: 0;
-  margin: 10px;
+  margin: 0 20px;
 }
 .desktop .about .card {
   width: 100%;
