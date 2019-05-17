@@ -2,6 +2,13 @@
   padding: 20px;
 }
 
+/* .about__social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+} */
+
 .about__title {
   display: inline-block;
   color: #445c84;
@@ -38,4 +45,19 @@
   border: unset;
   box-sizing: border-box;
   padding: 10px 20px;
+}
+
+.desktop .about {
+  width: 100%;
+  padding: 0;
+  margin: 10px;
+}
+.desktop .about .card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+  padding: 40px;
+  margin: 0;
 }
