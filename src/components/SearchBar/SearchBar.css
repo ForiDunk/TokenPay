@@ -1,4 +1,4 @@
-.seach-bar {
+.search-bar {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6,7 +6,7 @@
   background-color: #1c6ef6;
 }
 
-.search-bar--desktop {
+.desktop .search-bar {
   border-radius: 4px;
   margin: 20px;
 }
@@ -18,17 +18,17 @@
   height: 20px;
 }
 
-.seach-bar input {
+.search-bar input {
   background-color: unset;
   border: unset;
   width: 100%;
   color: #fff;
 }
-.seach-bar input:focus {
+.search-bar input:focus {
   outline: unset;
 }
 
-.seach-bar input::placeholder {
+.search-bar input::placeholder {
   color: #fff;
   font-size: 14px;
   font-weight: 400;

@@ -6,7 +6,7 @@
   justify-content: space-between;
 }
 
-.navbar--desktop {
+.desktop .navbar {
   box-sizing: border-box;
   height: 60px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.03);

@@ -4,7 +4,7 @@ import NavItems from '../NavItems/NavItems';
 import NavInfo from '../NavInfo/NavInfo';
 
 const NavBarDesktop = () => (
-  <div className="navbar navbar--desktop">
+  <div className="navbar">
     <NavItems />
     <LogoShort
       className="pointer center"

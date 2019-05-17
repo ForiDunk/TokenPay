@@ -1,0 +1,30 @@
+.desktop .info-cards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.desktop .info-cards .card__title {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.desktop .info-cards .card:nth-child(1) {
+  order: 1;
+  width: 20%;
+}
+.desktop .info-cards .card:nth-child(2) {
+  order: 3;
+  width: 20%;
+}
+.desktop .info-cards .card:nth-child(3) {
+  order: 2;
+  width: 40%;
+}
+.desktop .info-cards .card:nth-child(4) {
+  order: 4;
+  width: 40%;
+}

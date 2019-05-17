@@ -1,13 +1,19 @@
 import React from 'react';
 import Card from '../ui/Card/Card';
 import Divider from '../ui/Divider/Divider';
+import './InfoCards.css';
+import { isBrowser } from 'react-device-detect';
 
 const InfoCards = () => (
-  <div>
+  <div className="info-cards">
     <Card>
       <div className="card__row">
         <span className="card__title">24h Avg Transaction Value</span>
-        <span className="card__text--blue pointer">See more</span>
+        {isBrowser ? (
+          ''
+        ) : (
+          <span className="card__text--blue pointer">See more</span>
+        )}
       </div>
       <Divider />
       <div className="card__row">
@@ -20,7 +26,11 @@ const InfoCards = () => (
     <Card>
       <div className="card__row">
         <span className="card__title">Coin Supply (TPAY)</span>
-        <span className="card__text--blue pointer">See more</span>
+        {isBrowser ? (
+          ''
+        ) : (
+          <span className="card__text--blue pointer">See more</span>
+        )}
       </div>
       <Divider />
       <div className="card__row">
@@ -31,7 +41,11 @@ const InfoCards = () => (
     <Card>
       <div className="card__row">
         <span className="card__title">24h Transactions</span>
-        <span className="card__text--blue pointer">See more</span>
+        {isBrowser ? (
+          ''
+        ) : (
+          <span className="card__text--blue pointer">See more</span>
+        )}
       </div>
       <Divider />
       <div className="card__row">
@@ -49,7 +63,11 @@ const InfoCards = () => (
     <Card>
       <div className="card__row">
         <span className="card__title">Difficulty</span>
-        <span className="card__text--blue pointer">See more</span>
+        {isBrowser ? (
+          ''
+        ) : (
+          <span className="card__text--blue pointer">See more</span>
+        )}
       </div>
       <Divider />
       <div className="card__row">
