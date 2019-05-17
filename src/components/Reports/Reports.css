@@ -1,0 +1,40 @@
+.desktop .reports {
+  width: 100%;
+}
+
+.reports__header {
+  height: 40px;
+  border-radius: 0 0 4px 4px;
+  background-color: #f5f8fc;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 20px;
+  color: #445c84;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.reports__hash {
+  min-width: 475px;
+}
+.reports__height {
+  min-width: 45px;
+  text-align: center;
+}
+.reports__recipients {
+}
+.reports__status {
+  min-width: 50px;
+  text-align: center;
+}
+.reports__value {
+  min-width: 73px;
+  text-align: center;
+}
+.reports__time {
+  width: 200px;
+  text-align: end;
+}

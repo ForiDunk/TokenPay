@@ -1,5 +1,6 @@
 import React from 'react';
 import './ReportsNav.css';
+import { isBrowser } from 'react-device-detect';
 
 const ReportsNav = () => (
   <div className="card__row">
@@ -11,7 +12,7 @@ const ReportsNav = () => (
         <span>Blocks</span>
       </span>
       <span className="rep-nav__item pointer">
-        <span>Staked</span>
+        <span>{isBrowser ? 'Staked Transactions' : 'Staked'}</span>
       </span>
     </div>
     <span className="card__text--blue pointer">View all</span>
