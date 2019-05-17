@@ -1,0 +1,21 @@
+.footer {
+  margin: 20px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer .logos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.footer .copyright {
+  color: #7f8cb5;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 25px auto;
+}

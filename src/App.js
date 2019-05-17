@@ -5,6 +5,7 @@ import SearchBar from './components/SearchBar/SearchBar';
 import InfoCards from './components/InfoCards/InfoCards';
 import Reports from './components/Reports/Reports';
 import About from './components/About/About';
+import Footer from './components/Footer/Footer';
 const App = () => (
   <div>
     <NavBar />
@@ -14,8 +15,7 @@ const App = () => (
       <Reports />
       <About />
     </section>
-    <hr />
-    Footer
+    <Footer />
   </div>
 );
 
