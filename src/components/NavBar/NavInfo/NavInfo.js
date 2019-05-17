@@ -21,7 +21,7 @@ const NavInfo = () => (
     <div className="t-dropdown pointer">
       TPAY <span className="arrow" />
     </div>
-    <div className="theme-box">
+    <div className="theme-box pointer">
       <Light />
     </div>
   </div>
