@@ -1,5 +1,4 @@
 .desktop .info-cards {
-  width: 100%;
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
@@ -27,4 +26,8 @@
 .desktop .info-cards .card:nth-child(4) {
   order: 4;
   width: 40%;
+}
+
+.info-cards {
+  width: 100%;
 }
