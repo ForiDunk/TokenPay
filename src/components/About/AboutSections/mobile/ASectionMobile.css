@@ -39,6 +39,10 @@
   line-height: 34px;
 }
 
+.a-section--mobile {
+  padding: 0 20px 20px;
+}
+
 .a-section--mobile .divider {
   opacity: 1;
 }

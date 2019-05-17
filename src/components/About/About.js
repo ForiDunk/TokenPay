@@ -3,6 +3,7 @@ import './About.css';
 import Card from '../ui/Card/Card';
 import AboutSections from './AboutSections/AboutSections';
 import { ReactComponent as TPayLogo } from './AboutSections/desktop/tpay-logo.svg';
+import { isBrowser } from 'react-device-detect';
 
 const About = () => (
   <div className="about">
@@ -21,7 +22,7 @@ const About = () => (
         </div>
       </div>
       <AboutSections />
-      <TPayLogo />
+      {isBrowser ? <TPayLogo /> : null}
     </Card>
   </div>
 );

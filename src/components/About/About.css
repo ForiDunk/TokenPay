@@ -1,13 +1,12 @@
 .about {
-  padding: 20px;
+  padding: 10px;
+  width: 100%;
 }
 
-/* .about__social {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-} */
+.about__social {
+  padding: 0 10px;
+  box-sizing: border-box;
+}
 
 .about__title {
   display: inline-block;
