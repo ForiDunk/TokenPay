@@ -19,3 +19,20 @@
   font-weight: 400;
   margin: 25px auto;
 }
+
+.desktop .footer {
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+}
+
+.desktop .footer .copyright {
+  width: 100%;
+  margin: 0;
+}
+
+.desktop .footer .logos {
+  width: unset;
+}
+.desktop .footer .logos svg {
+  margin: 10px 40px;
+}
